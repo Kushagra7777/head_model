@@ -89,6 +89,15 @@ def main():
     with open(result_dir / "classification_report.txt", "w") as f:
         f.write(report)
 
+    # Create DataFrame to store actual vs predicted labels
+    results_df = pd.DataFrame({
+        'Actual': y_test,
+        'Predicted': pred_test
+    })
+
+    # Save the DataFrame to a CSV file
+    results_df.to_csv(result_dir / "predicted_vs_actual.csv", index=False)
+
     if hasattr(estimator, "predict_proba"):
         prob_test = estimator.predict_proba(X_test)
     elif hasattr(estimator, "decision_function"):
@@ -98,5 +107,9 @@ def main():
     np.save(result_dir / "prob.npy", prob_test)
 
 
+
 if __name__ == '__main__':
     main()
+
+
+# python single_estimator.py --input_dir work_dir/0 --result_dir work_dir/results_0 --seed 42 --estimator random_forest --n_samples -1 --n_features -1
