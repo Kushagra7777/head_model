@@ -1,5 +1,0 @@
-BreastC
-Control
-HepatocelularC
-ColonC
-GallbladderC
