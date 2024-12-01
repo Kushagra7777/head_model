@@ -1,0 +1,198 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_random-forest",
+  "estimator": {
+    "type": "<class 'sklearn.ensemble._forest.RandomForestClassifier'>",
+    "params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": null,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 2.681812047958374,
+          "test": 0.0537266731262207,
+          "validate": 0.10098934173583984
+        },
+        "accuracy": 0.7186414511771517
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 2.6806890964508057,
+          "test": 0.04564547538757324,
+          "validate": 0.08454656600952148
+        },
+        "accuracy": 0.7164640030882069
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 2.704514741897583,
+          "test": 0.04544544219970703,
+          "validate": 0.08057260513305664
+        },
+        "accuracy": 0.7100945763366145
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 2.6866443157196045,
+          "test": 0.044591665267944336,
+          "validate": 0.0809171199798584
+        },
+        "accuracy": 0.7151129125651419
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 2.666170120239258,
+          "test": 0.045531511306762695,
+          "validate": 0.08401131629943848
+        },
+        "accuracy": 0.7170430418838062
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 2.704926013946533,
+          "test": 0.044390201568603516,
+          "validate": 0.08226203918457031
+        },
+        "accuracy": 0.7207102875892685
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 2.626127243041992,
+          "test": 0.045085906982421875,
+          "validate": 0.08177638053894043
+        },
+        "accuracy": 0.7160779772244741
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 2.6445202827453613,
+          "test": 0.04458951950073242,
+          "validate": 0.0805659294128418
+        },
+        "accuracy": 0.7115830115830116
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 2.6538314819335938,
+          "test": 0.04402422904968262,
+          "validate": 0.08060503005981445
+        },
+        "accuracy": 0.7142857142857143
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 2.675302505493164,
+          "test": 0.04460906982421875,
+          "validate": 0.07899951934814453
+        },
+        "accuracy": 0.7084942084942085
+      }
+    ],
+    "accuracy": 0.7231315626930204
+  }
+}

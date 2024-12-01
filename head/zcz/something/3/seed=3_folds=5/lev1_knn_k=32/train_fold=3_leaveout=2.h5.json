@@ -1,0 +1,31 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_knn_k=32",
+  "estimator": {
+    "type": "<class 'sklearn.neighbors._classification.KNeighborsClassifier'>",
+    "params": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 32,
+      "p": 2,
+      "weights": "uniform"
+    }
+  },
+  "jlog": {
+    "validation_folds": [
+      2,
+      3
+    ],
+    "time": {
+      "train": 0.012016057968139648,
+      "test": 0.2672727108001709,
+      "validate": 0.44809603691101074
+    },
+    "accuracy": 0.672972972972973
+  }
+}

@@ -1,0 +1,8 @@
+,Actual,random_forest,logistic_regression,logistic_regression_sag,logistic_regression_saga,extra_tree,linear_svc,gbdt,mlp-3,mlp-4,knn-2,knn-4,knn-8,knn-16,knn-32,knn-64,knn-128,knn-256,Voting_Prediction
+0,0,1,5,4,4,1,7,4,4,4,4,5,0,0,0,0,0,0,0
+1,0,1,4,4,4,1,7,4,4,4,4,5,5,0,0,0,0,0,4
+2,0,1,4,4,4,1,4,4,4,4,4,0,0,0,0,0,0,0,4
+3,0,1,5,4,4,1,7,4,4,4,4,5,5,0,0,0,0,0,4
+4,0,1,5,4,4,1,5,4,4,5,4,5,0,0,0,0,0,0,0
+Correct,,0,0,0,0,0,0,0,0,0,0,1,3,5,5,5,5,5,2
+Wrong,,5,5,5,5,5,5,5,5,5,5,4,2,0,0,0,0,0,3

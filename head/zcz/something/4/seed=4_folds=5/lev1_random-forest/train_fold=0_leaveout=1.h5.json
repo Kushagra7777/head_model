@@ -1,0 +1,42 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_random-forest",
+  "estimator": {
+    "type": "<class 'sklearn.ensemble._forest.RandomForestClassifier'>",
+    "params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": null,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "validation_folds": [
+      0,
+      1
+    ],
+    "time": {
+      "train": 2.7292261123657227,
+      "test": 0.05758070945739746,
+      "validate": 0.09396076202392578
+    },
+    "accuracy": 0.7167116943265148
+  }
+}

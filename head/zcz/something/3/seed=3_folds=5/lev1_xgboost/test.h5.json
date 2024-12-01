@@ -1,0 +1,220 @@
+{
+  "input_names": [
+    "raw",
+    "tsne"
+  ],
+  "output_name": "lev1_xgboost",
+  "estimator": {
+    "type": "<class 'xgboost.sklearn.XGBClassifier'>",
+    "params": {
+      "objective": "multi:softmax",
+      "base_score": null,
+      "booster": null,
+      "callbacks": null,
+      "colsample_bylevel": null,
+      "colsample_bynode": null,
+      "colsample_bytree": 1.0,
+      "device": null,
+      "early_stopping_rounds": null,
+      "enable_categorical": false,
+      "eval_metric": null,
+      "feature_types": null,
+      "gamma": null,
+      "grow_policy": null,
+      "importance_type": null,
+      "interaction_constraints": null,
+      "learning_rate": 0.05,
+      "max_bin": null,
+      "max_cat_threshold": null,
+      "max_cat_to_onehot": null,
+      "max_delta_step": null,
+      "max_depth": 5,
+      "max_leaves": null,
+      "min_child_weight": null,
+      "missing": NaN,
+      "monotone_constraints": null,
+      "multi_strategy": null,
+      "n_estimators": 1000,
+      "n_jobs": null,
+      "num_parallel_tree": null,
+      "random_state": null,
+      "reg_alpha": null,
+      "reg_lambda": null,
+      "sampling_method": null,
+      "scale_pos_weight": null,
+      "subsample": 0.5,
+      "tree_method": null,
+      "validate_parameters": null,
+      "verbosity": null,
+      "nthread": 10
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 14.611164569854736,
+          "test": 0.2275834083557129,
+          "validate": 0.3196065425872803
+        },
+        "accuracy": 0.7238517946738711
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 14.336102485656738,
+          "test": 0.20566511154174805,
+          "validate": 0.31755828857421875
+        },
+        "accuracy": 0.7210963134530014
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 14.303423643112183,
+          "test": 0.22520828247070312,
+          "validate": 0.35467052459716797
+        },
+        "accuracy": 0.7251495850221965
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 16.23097062110901,
+          "test": 0.20833635330200195,
+          "validate": 0.3237955570220947
+        },
+        "accuracy": 0.7224474039760664
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 16.50866985321045,
+          "test": 0.28669261932373047,
+          "validate": 0.3646683692932129
+        },
+        "accuracy": 0.7245705462265972
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 18.65067768096924,
+          "test": 0.22004055976867676,
+          "validate": 0.3407168388366699
+        },
+        "accuracy": 0.7274657402045938
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 17.831435680389404,
+          "test": 0.2221066951751709,
+          "validate": 0.34833383560180664
+        },
+        "accuracy": 0.7214823393167342
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 18.263810634613037,
+          "test": 0.2395644187927246,
+          "validate": 0.3559269905090332
+        },
+        "accuracy": 0.7258687258687259
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 18.203270196914673,
+          "test": 0.22302770614624023,
+          "validate": 0.34656286239624023
+        },
+        "accuracy": 0.7231660231660232
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 18.735484838485718,
+          "test": 0.2610940933227539,
+          "validate": 0.3458397388458252
+        },
+        "accuracy": 0.7204633204633205
+      }
+    ],
+    "accuracy": 0.7317788758492897
+  }
+}

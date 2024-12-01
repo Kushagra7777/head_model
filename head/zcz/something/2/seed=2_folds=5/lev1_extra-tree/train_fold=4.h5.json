@@ -1,0 +1,197 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_extra-tree",
+  "estimator": {
+    "type": "<class 'sklearn.ensemble._forest.ExtraTreesClassifier'>",
+    "params": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": null,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 1.0151162147521973,
+          "test": 0.08975481986999512,
+          "validate": 0.14421534538269043
+        },
+        "accuracy": 0.7120802778849865
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 1.0606651306152344,
+          "test": 0.08763265609741211,
+          "validate": 0.15314626693725586
+        },
+        "accuracy": 0.7170430418838062
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 1.015817642211914,
+          "test": 0.09969496726989746,
+          "validate": 0.14545512199401855
+        },
+        "accuracy": 0.7141478479058097
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 1.0122768878936768,
+          "test": 0.08976888656616211,
+          "validate": 0.1511228084564209
+        },
+        "accuracy": 0.7124107315190118
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 1.0445361137390137,
+          "test": 0.10665082931518555,
+          "validate": 0.14381670951843262
+        },
+        "accuracy": 0.7079714340860838
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 1.0296952724456787,
+          "test": 0.08959674835205078,
+          "validate": 0.14863801002502441
+        },
+        "accuracy": 0.7122177185871453
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 1.032585620880127,
+          "test": 0.09690713882446289,
+          "validate": 0.14547300338745117
+        },
+        "accuracy": 0.7093225246091488
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 1.0266499519348145,
+          "test": 0.0836782455444336,
+          "validate": 0.15664935111999512
+        },
+        "accuracy": 0.7137065637065637
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 1.0190000534057617,
+          "test": 0.07960176467895508,
+          "validate": 0.15858912467956543
+        },
+        "accuracy": 0.7038610038610038
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 1.1084468364715576,
+          "test": 0.0883798599243164,
+          "validate": 0.15310430526733398
+        },
+        "accuracy": 0.7113899613899614
+      }
+    ]
+  }
+}

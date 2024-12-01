@@ -1,0 +1,186 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_knn_k=2",
+  "estimator": {
+    "type": "<class 'sklearn.neighbors._classification.KNeighborsClassifier'>",
+    "params": {
+      "algorithm": "auto",
+      "leaf_size": 30,
+      "metric": "minkowski",
+      "metric_params": null,
+      "n_jobs": null,
+      "n_neighbors": 2,
+      "p": 2,
+      "weights": "uniform"
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 0.010577678680419922,
+          "test": 0.12049031257629395,
+          "validate": 0.20586824417114258
+        },
+        "accuracy": 0.6194519490544191
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 0.013059854507446289,
+          "test": 0.12025713920593262,
+          "validate": 0.2014780044555664
+        },
+        "accuracy": 0.6213086276780544
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 0.010526657104492188,
+          "test": 0.11916828155517578,
+          "validate": 0.20347189903259277
+        },
+        "accuracy": 0.628643119088979
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 0.011085748672485352,
+          "test": 0.12553191184997559,
+          "validate": 0.20878338813781738
+        },
+        "accuracy": 0.6232387569967188
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 0.010601043701171875,
+          "test": 0.11741948127746582,
+          "validate": 0.2144482135772705
+        },
+        "accuracy": 0.6209226018143216
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 0.01056814193725586,
+          "test": 0.11991691589355469,
+          "validate": 0.1997356414794922
+        },
+        "accuracy": 0.6280640802933797
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 0.011525154113769531,
+          "test": 0.11849451065063477,
+          "validate": 0.20290160179138184
+        },
+        "accuracy": 0.6232387569967188
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 0.010566234588623047,
+          "test": 0.12067198753356934,
+          "validate": 0.20392131805419922
+        },
+        "accuracy": 0.6258687258687259
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 0.010597467422485352,
+          "test": 0.12117791175842285,
+          "validate": 0.20505428314208984
+        },
+        "accuracy": 0.6133204633204633
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 0.010911941528320312,
+          "test": 0.11799073219299316,
+          "validate": 0.202164888381958
+        },
+        "accuracy": 0.6229729729729729
+      }
+    ]
+  }
+}

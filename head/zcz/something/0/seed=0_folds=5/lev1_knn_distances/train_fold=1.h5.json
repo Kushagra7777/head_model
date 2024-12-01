@@ -1,0 +1,174 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_knn_distances",
+  "estimator": {
+    "type": "<class 'features.knn.KNNDistanceFeature'>",
+    "params": {
+      "ks": [
+        1,
+        2,
+        4
+      ],
+      "metric": "euclidean"
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 0.011579036712646484,
+          "test": 1.3723671436309814,
+          "validate": 1.7037813663482666
+        }
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 0.012555360794067383,
+          "test": 1.380598545074463,
+          "validate": 1.6857259273529053
+        }
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 0.011026859283447266,
+          "test": 1.4112963676452637,
+          "validate": 1.8905088901519775
+        }
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 0.011502504348754883,
+          "test": 1.5860259532928467,
+          "validate": 2.025608777999878
+        }
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 0.010856866836547852,
+          "test": 1.4561424255371094,
+          "validate": 1.776176929473877
+        }
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 0.014051198959350586,
+          "test": 1.3916196823120117,
+          "validate": 1.7955031394958496
+        }
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 0.010560750961303711,
+          "test": 1.32942533493042,
+          "validate": 1.712656021118164
+        }
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 0.010164499282836914,
+          "test": 1.3682236671447754,
+          "validate": 1.7994651794433594
+        }
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 0.010533571243286133,
+          "test": 1.3404576778411865,
+          "validate": 1.863560676574707
+        }
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 0.010525941848754883,
+          "test": 1.311980962753296,
+          "validate": 1.7692625522613525
+        }
+      }
+    ]
+  }
+}

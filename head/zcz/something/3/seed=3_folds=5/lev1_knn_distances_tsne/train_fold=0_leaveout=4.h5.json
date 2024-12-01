@@ -1,0 +1,26 @@
+{
+  "input_names": [
+    "tsne"
+  ],
+  "output_name": "lev1_knn_distances_tsne",
+  "estimator": {
+    "type": "<class 'features.knn.KNNDistanceFeature'>",
+    "params": {
+      "ks": [
+        1
+      ],
+      "metric": "euclidean"
+    }
+  },
+  "jlog": {
+    "validation_folds": [
+      0,
+      4
+    ],
+    "time": {
+      "train": 0.007984161376953125,
+      "test": 0.3028712272644043,
+      "validate": 0.3025057315826416
+    }
+  }
+}

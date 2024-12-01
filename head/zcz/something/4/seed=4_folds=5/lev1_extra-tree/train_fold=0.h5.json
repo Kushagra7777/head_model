@@ -1,0 +1,197 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_extra-tree",
+  "estimator": {
+    "type": "<class 'sklearn.ensemble._forest.ExtraTreesClassifier'>",
+    "params": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": null,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 0.8850233554840088,
+          "test": 0.06961417198181152,
+          "validate": 0.11772441864013672
+        },
+        "accuracy": 0.714203010420687
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 0.8805651664733887,
+          "test": 0.06767106056213379,
+          "validate": 0.11378955841064453
+        },
+        "accuracy": 0.714726886701409
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 0.8525557518005371,
+          "test": 0.06563282012939453,
+          "validate": 0.11364364624023438
+        },
+        "accuracy": 0.7158849642926076
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 0.8530850410461426,
+          "test": 0.06404614448547363,
+          "validate": 0.11917328834533691
+        },
+        "accuracy": 0.7166570160200734
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 0.8769338130950928,
+          "test": 0.06960105895996094,
+          "validate": 0.12030959129333496
+        },
+        "accuracy": 0.7099015634047481
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 0.8749094009399414,
+          "test": 0.06862568855285645,
+          "validate": 0.11158585548400879
+        },
+        "accuracy": 0.7043041883806215
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 0.8776235580444336,
+          "test": 0.06768512725830078,
+          "validate": 0.13573122024536133
+        },
+        "accuracy": 0.708550472881683
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 0.8497569561004639,
+          "test": 0.06909656524658203,
+          "validate": 0.11034965515136719
+        },
+        "accuracy": 0.7063706563706563
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 0.8609061241149902,
+          "test": 0.08115172386169434,
+          "validate": 0.13863682746887207
+        },
+        "accuracy": 0.711003861003861
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 0.8922362327575684,
+          "test": 0.08457422256469727,
+          "validate": 0.15252923965454102
+        },
+        "accuracy": 0.7133204633204633
+      }
+    ]
+  }
+}

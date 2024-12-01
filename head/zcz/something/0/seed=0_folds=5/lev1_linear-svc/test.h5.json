@@ -1,0 +1,191 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_linear-svc",
+  "estimator": {
+    "type": "<class 'sklearn.svm._classes.LinearSVC'>",
+    "params": {
+      "C": 50,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 1000,
+      "multi_class": "ovr",
+      "penalty": "l1",
+      "random_state": null,
+      "tol": 0.0001,
+      "verbose": 0
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 5.247774839401245,
+          "test": 0.0030059814453125,
+          "validate": 0.021126270294189453
+        },
+        "accuracy": 0.646854496333462
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 5.2727649211883545,
+          "test": 0.005034208297729492,
+          "validate": 0.017897844314575195
+        },
+        "accuracy": 0.6481374252074888
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 5.369285345077515,
+          "test": 0.0030465126037597656,
+          "validate": 0.019155263900756836
+        },
+        "accuracy": 0.6448562053657595
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 5.237983465194702,
+          "test": 0.0040166378021240234,
+          "validate": 0.01782965660095215
+        },
+        "accuracy": 0.6456282570932252
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 5.148658514022827,
+          "test": 0.0038650035858154297,
+          "validate": 0.019062519073486328
+        },
+        "accuracy": 0.6442771665701602
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 5.177443742752075,
+          "test": 0.0040051937103271484,
+          "validate": 0.01835465431213379
+        },
+        "accuracy": 0.6375217139548349
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 5.06537652015686,
+          "test": 0.00400233268737793,
+          "validate": 0.018032550811767578
+        },
+        "accuracy": 0.6436981277745609
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 5.304952621459961,
+          "test": 0.004014015197753906,
+          "validate": 0.019011974334716797
+        },
+        "accuracy": 0.6413127413127413
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 5.206637382507324,
+          "test": 0.004015445709228516,
+          "validate": 0.020109176635742188
+        },
+        "accuracy": 0.6416988416988417
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 5.431589365005493,
+          "test": 0.01000833511352539,
+          "validate": 0.02799201011657715
+        },
+        "accuracy": 0.6386100386100386
+      }
+    ],
+    "accuracy": 0.6438387893761581
+  }
+}

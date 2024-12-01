@@ -1,0 +1,28 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_knn_distances",
+  "estimator": {
+    "type": "<class 'features.knn.KNNDistanceFeature'>",
+    "params": {
+      "ks": [
+        1,
+        2,
+        4
+      ],
+      "metric": "euclidean"
+    }
+  },
+  "jlog": {
+    "validation_folds": [
+      2,
+      3
+    ],
+    "time": {
+      "train": 0.016572237014770508,
+      "test": 1.401555061340332,
+      "validate": 1.7942664623260498
+    }
+  }
+}

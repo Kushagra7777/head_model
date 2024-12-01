@@ -1,0 +1,198 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_random-forest",
+  "estimator": {
+    "type": "<class 'sklearn.ensemble._forest.RandomForestClassifier'>",
+    "params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": null,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 2.6674082279205322,
+          "test": 0.04704403877258301,
+          "validate": 0.08955931663513184
+        },
+        "accuracy": 0.7167116943265148
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 2.6515629291534424,
+          "test": 0.05046987533569336,
+          "validate": 0.08853507041931152
+        },
+        "accuracy": 0.7093225246091488
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 2.6559064388275146,
+          "test": 0.04799461364746094,
+          "validate": 0.08830738067626953
+        },
+        "accuracy": 0.7189731712024706
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 2.626986503601074,
+          "test": 0.04555392265319824,
+          "validate": 0.08965182304382324
+        },
+        "accuracy": 0.7201312487936692
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 2.674933433532715,
+          "test": 0.04684782028198242,
+          "validate": 0.08258795738220215
+        },
+        "accuracy": 0.708550472881683
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 2.704180955886841,
+          "test": 0.05412173271179199,
+          "validate": 0.09008288383483887
+        },
+        "accuracy": 0.7143408608376761
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 2.671424150466919,
+          "test": 0.05203819274902344,
+          "validate": 0.08758091926574707
+        },
+        "accuracy": 0.7154989384288747
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 2.646109104156494,
+          "test": 0.05099940299987793,
+          "validate": 0.09054255485534668
+        },
+        "accuracy": 0.7140926640926641
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 2.6373438835144043,
+          "test": 0.047602176666259766,
+          "validate": 0.08419156074523926
+        },
+        "accuracy": 0.7098455598455599
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 2.6869301795959473,
+          "test": 0.04900813102722168,
+          "validate": 0.0893559455871582
+        },
+        "accuracy": 0.71003861003861
+      }
+    ],
+    "accuracy": 0.724289684990735
+  }
+}

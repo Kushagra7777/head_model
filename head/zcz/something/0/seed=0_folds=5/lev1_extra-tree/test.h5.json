@@ -1,0 +1,198 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_extra-tree",
+  "estimator": {
+    "type": "<class 'sklearn.ensemble._forest.ExtraTreesClassifier'>",
+    "params": {
+      "bootstrap": false,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": null,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "n_validation_fold_sets": 10,
+    "validation_fold_sets": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "bag": [
+      {
+        "validation_folds": [
+          0,
+          1
+        ],
+        "time": {
+          "train": 0.8496701717376709,
+          "test": 0.0634605884552002,
+          "validate": 0.1064143180847168
+        },
+        "accuracy": 0.7138170590505596
+      },
+      {
+        "validation_folds": [
+          0,
+          2
+        ],
+        "time": {
+          "train": 0.8573803901672363,
+          "test": 0.06146717071533203,
+          "validate": 0.11205339431762695
+        },
+        "accuracy": 0.7126037444508783
+      },
+      {
+        "validation_folds": [
+          0,
+          3
+        ],
+        "time": {
+          "train": 0.8631997108459473,
+          "test": 0.06158924102783203,
+          "validate": 0.10865259170532227
+        },
+        "accuracy": 0.7079714340860838
+      },
+      {
+        "validation_folds": [
+          0,
+          4
+        ],
+        "time": {
+          "train": 0.930535078048706,
+          "test": 0.06355905532836914,
+          "validate": 0.11159062385559082
+        },
+        "accuracy": 0.7139548349739433
+      },
+      {
+        "validation_folds": [
+          1,
+          2
+        ],
+        "time": {
+          "train": 0.8776962757110596,
+          "test": 0.06426644325256348,
+          "validate": 0.11261177062988281
+        },
+        "accuracy": 0.7141478479058097
+      },
+      {
+        "validation_folds": [
+          1,
+          3
+        ],
+        "time": {
+          "train": 0.8507254123687744,
+          "test": 0.060605764389038086,
+          "validate": 0.10774922370910645
+        },
+        "accuracy": 0.7118316927234125
+      },
+      {
+        "validation_folds": [
+          1,
+          4
+        ],
+        "time": {
+          "train": 0.8399131298065186,
+          "test": 0.05958247184753418,
+          "validate": 0.10656118392944336
+        },
+        "accuracy": 0.711638679791546
+      },
+      {
+        "validation_folds": [
+          2,
+          3
+        ],
+        "time": {
+          "train": 0.8516871929168701,
+          "test": 0.06057167053222656,
+          "validate": 0.10714864730834961
+        },
+        "accuracy": 0.7131274131274131
+      },
+      {
+        "validation_folds": [
+          2,
+          4
+        ],
+        "time": {
+          "train": 0.8556389808654785,
+          "test": 0.061554908752441406,
+          "validate": 0.10668516159057617
+        },
+        "accuracy": 0.7040540540540541
+      },
+      {
+        "validation_folds": [
+          3,
+          4
+        ],
+        "time": {
+          "train": 0.8435397148132324,
+          "test": 0.061565399169921875,
+          "validate": 0.10684585571289062
+        },
+        "accuracy": 0.705984555984556
+      }
+    ],
+    "accuracy": 0.7168004941321804
+  }
+}

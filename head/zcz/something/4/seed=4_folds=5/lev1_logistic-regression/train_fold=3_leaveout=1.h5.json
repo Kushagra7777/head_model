@@ -1,0 +1,38 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_logistic-regression",
+  "estimator": {
+    "type": "<class 'sklearn.linear_model._logistic.LogisticRegression'>",
+    "params": {
+      "C": 1.0,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 100,
+      "multi_class": "deprecated",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": null,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  "jlog": {
+    "validation_folds": [
+      1,
+      3
+    ],
+    "time": {
+      "train": 0.4168717861175537,
+      "test": 0.004029273986816406,
+      "validate": 0.01900935173034668
+    },
+    "accuracy": 0.6319243389307083
+  }
+}

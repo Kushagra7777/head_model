@@ -1,0 +1,35 @@
+{
+  "input_names": [
+    "imputed"
+  ],
+  "output_name": "lev1_linear-svc",
+  "estimator": {
+    "type": "<class 'sklearn.svm._classes.LinearSVC'>",
+    "params": {
+      "C": 50,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "loss": "squared_hinge",
+      "max_iter": 1000,
+      "multi_class": "ovr",
+      "penalty": "l1",
+      "random_state": null,
+      "tol": 0.0001,
+      "verbose": 0
+    }
+  },
+  "jlog": {
+    "validation_folds": [
+      1,
+      4
+    ],
+    "time": {
+      "train": 5.279939413070679,
+      "test": 0.0029973983764648438,
+      "validate": 0.019107341766357422
+    },
+    "accuracy": 0.6454352441613588
+  }
+}
